@@ -2,7 +2,7 @@
   "name": "paradigm-app",
   "version": "1.0.0",
   "description": "## CLI Commands",
-  "main": "server/server.ts",
+  "main": "index.ts",
   "engines": {
     "node": "16.x"
   },
