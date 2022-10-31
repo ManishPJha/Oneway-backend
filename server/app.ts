@@ -8,7 +8,7 @@ import EmployeeRoute from "./routes/Employee.routes";
 import OperatorRoute from "./routes/Operator.routes";
 
 require("dotenv").config({
-  path: "config/config.env",
+  path: "server/config/config.env",
 });
 
 const app: Express = express();
