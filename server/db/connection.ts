@@ -1,5 +1,5 @@
 import mongoose from "mongoose"
-import { localConfig } from "../config"
+import { localConfig } from "../config/index"
 
 let connectionString : string = localConfig.DB_URI!;
 
