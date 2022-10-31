@@ -8,7 +8,7 @@
   },
     "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm install typescript -g && tsc && npm run build",
+    "build": "npm install typescript -g && npm install && tsc && npm run start",
     "dev": "export NODE_ENV=DEVELOPMENT || SET NODE_ENV=DEVELOPMENT && nodemon server/server.ts",
     "prod": "export NODE_ENV=PRODUCTION || SET NODE_ENV=PRODUCTION && nodemon server/server.ts",
     "start": "export NODE_ENV=PRODUCTION || SET NODE_ENV=PRODUCTION && node server/server.ts"
@@ -43,5 +43,6 @@
     "@types/nodemailer": "^6.4.6",
     "@types/validator": "^13.7.7",
     "nodemon": "^2.0.20"
-  }
+  },
+  "type": "module"
 }
