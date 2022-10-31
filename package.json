@@ -11,7 +11,7 @@
     "build": "npm install typescript -g && npm install && tsc && npm run start",
     "dev": "export NODE_ENV=DEVELOPMENT || SET NODE_ENV=DEVELOPMENT && nodemon server/server.ts",
     "prod": "export NODE_ENV=PRODUCTION || SET NODE_ENV=PRODUCTION && nodemon server/server.ts",
-    "start": "export NODE_ENV=PRODUCTION || SET NODE_ENV=PRODUCTION && node server/server.ts"
+    "start": "export NODE_ENV=PRODUCTION || SET NODE_ENV=PRODUCTION && ts-node-esm server/server.ts"
   },
   "keywords": [],
   "author": "",
@@ -44,5 +44,5 @@
     "@types/validator": "^13.7.7",
     "nodemon": "^2.0.20"
   },
-  "type": "module"
+  "type": "commonjs"
 }
