@@ -1,5 +1,5 @@
 require("dotenv").config({
-    path: "server/config/config.env"
+    path: "src/config/config.env"
 });
 
 import localConfig from "./config.local"
